@@ -1,0 +1,20 @@
+{
+  "name": "woow.fail",
+  "version": "1.0.0",
+  "description": "Woow.fail jekyll powered",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp jekyll-build",
+    "serve": "gulp browser-sync",
+    "start": "gulp start"
+  },
+  "author": "RamizIb",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}

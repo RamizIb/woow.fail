@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+encoding: "utf-8"
+permalink: /:categories/:title:output_ext
+name: Woow Fail
+title: Woow Fail
+email: support@woow.fail
+author: RamizIb
+
+description: > # this means to ignore newlines until "baseurl:"
+ Woow.Fail - история про то, что полезно, а что нет
+
+url: "https://woow.fail" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+
+
+github:  https://github.com/RamizIb
+telegram: foo
+instagram: bar
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+  parse_span_html: true
+  auto_ids: false
+
+# Exclude
+exclude:
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - node_modules/
+
+# Excerpt post separator
+excerpt_separator: <!--more-->
+
+# Sass compresed
+sass:
+    style: compressed
+
+# Sitemap generator
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+        - "/css/main.scss"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+# Menu
+menu:
+  - url: /parents/
+    name: Родителям
+  - url: /review/
+    name: Обзоры
+  - url: /compilation/
+    name: Подборки
+  - url: /rating-store/
+    name: Рейтинг
+
+# Collections
+collections:
+  rating-store:
+    output: true
