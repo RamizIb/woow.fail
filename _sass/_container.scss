@@ -1,0 +1,32 @@
+// body:not([class]) {
+//   margin: calc(24px + 4vh) calc(10px + 4vw);
+// }
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 10px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 10px;
+}
+
+.container-main {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 10px;
+}

@@ -1,23 +1,13 @@
 <header class="site-header">
+  <div class="container-header">
 
-  <div class="wrapper">
+    <div class="navbar__brand">
+      <a href="/index.html">{{ site.title }}</a>
+    </div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!-- Jekill menu -->
+    {% include menu-top.html %}
+    <!-- /Jekill menu -->
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
-</header>
+  </div><!-- /.container-header -->
+</header><!-- /.header -->

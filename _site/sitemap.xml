@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>https://woow.fail/post/welcome-to-jekyll.html</loc>
+        <lastmod>2018-07-11T17:03:17+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/post/welcome-to-jekyll-2.html</loc>
+        <lastmod>2018-07-11T17:03:17+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/post/welcome-to-jekyll-3.html</loc>
+        <lastmod>2018-07-11T17:03:17+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/post/welcome-to-jekyll-4.html</loc>
+        <lastmod>2018-07-11T17:03:17+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/post/welcome-to-jekyll-5.html</loc>
+        <lastmod>2018-07-11T17:03:17+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/about/</loc>
+        <lastmod>2018-07-11T17:02:43+03:00</lastmod>
+    </url>
+    <url>
+        <loc>https://woow.fail/</loc>
+        <lastmod>2018-07-11T20:20:44+03:00</lastmod>
+    </url>
+</urlset>
