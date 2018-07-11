@@ -1,6 +1,6 @@
-# Kiddy.today
+# Woow.fail
 
-Проект [Kiddy.today](https://Kiddy.today).
+Проект [Woow.fail](https://Woow.fail).
 
 Автор: [Ramiz Ibragimov](https://github.com/RamizIb).
 

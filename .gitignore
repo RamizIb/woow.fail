@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+includ_html/
+node_modules/
+template/
+.sass-cache/
+Thumbs.db
