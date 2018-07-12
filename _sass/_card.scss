@@ -1,0 +1,133 @@
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.card-one {
+  width: 335px;
+
+  .card-body {
+    flex-grow: 1;
+  }
+}
+
+.card-two {
+  width: 335px;
+
+  .card-body {
+    flex-grow: 0;
+    padding-top: 20px;
+  }
+
+  .card-hero {
+    flex-grow: 1;
+    padding-bottom: 0;
+  }
+
+}
+
+.card-three {
+  width: 335px;
+  position: relative;
+
+  .card-body {
+    position: absolute;
+    top: 20px;
+
+    flex-grow: 0;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .card-hero {
+    flex-grow: 1;
+    padding-bottom: 0;
+  }
+
+}
+
+.card-four {
+  width: 450px;
+
+  .card-body {
+    flex-grow: 1;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+
+  background-color: #ffffff;
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  transition: all 0.4s;
+
+  &:hover {
+    transform: translate(0,-5px);
+
+    box-shadow: 0 30px 30px rgba(0,0,0,.16);
+    transition: all 0.4s;
+  }
+}
+
+.card-hero {
+  padding-bottom: 20px;
+
+  a {
+    display: flex;
+    justify-content: center;
+
+    img {
+
+    }
+  }
+}
+
+.card-body {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  a {
+    text-decoration: none;
+  }
+
+  h3 {
+
+  }
+
+  p {
+    margin: 0 0 1.0em;
+    padding-bottom: 5px;
+  }
+}
+
+.card-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-top: 1px solid #E9EBEE;
+
+  a {
+    text-decoration: none;
+  }
+
+  .card__type {
+    margin-right: 10px;
+  }
+
+  .card__tag {
+    margin-right: 10px;
+  }
+
+  .card__date {
+
+  }
+}

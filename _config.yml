@@ -61,14 +61,14 @@ sitemap:
 
 # Menu
 menu:
-  - url: /parents/
-    name: Родителям
-  - url: /review/
-    name: Обзоры
-  - url: /compilation/
-    name: Подборки
-  - url: /rating-store/
-    name: Рейтинг
+  - url: /finance/
+    name: Финансы
+  - url: /courses/
+    name: Курсы
+  - url: /advertising/
+    name: Что рекламируют
+  - url: /new-product/
+    name: Новинки
 
 # Collections
 collections:

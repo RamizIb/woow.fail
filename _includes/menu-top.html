@@ -1,8 +1,12 @@
 <div class="menu-top">
   
   <ul class="menu-top__ul">
-    <li><a href="#">item</a></li>
-    <li><a href="#">item</a></li>
-    <li><a href="#">item</a></li>
+
+    {% for item in site.menu %}
+    <li class="{% if page.url == item.url %} navbar__active {% endif %}">
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+    
   </ul>
 </div>
