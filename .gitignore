@@ -5,6 +5,7 @@
 *.pdf
 *.psd
 *.sublime*
+_site/
 includ_html/
 node_modules/
 template/

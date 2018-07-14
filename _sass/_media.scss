@@ -1,0 +1,18 @@
+@media screen and (min-width: 600px) {
+  
+  .container-header {
+    flex-direction: row;
+  }
+
+  .menu-top__ul {
+    display: block;
+  }
+
+  .menu-top__ul-mobile {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}

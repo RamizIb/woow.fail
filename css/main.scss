@@ -54,6 +54,8 @@ section:not([class]) section:not([class]) {
 p {
   margin: 0 0 1.5em;
   max-width: 50rem;
+
+  color: #4B4F56;
 }
 
 /* minimum paragraph width when floating http://css-tricks.com/minimum-paragraph-widths/ */
@@ -337,5 +339,6 @@ samp {
         "site-footer",
         "menu-top",
         "card",
-        "subscribe"
+        "subscribe",
+        "media"
 ;

@@ -6,7 +6,7 @@
 }
 
 .card-one {
-  width: 335px;
+  width: 350px;
 
   .card-body {
     flex-grow: 1;
@@ -14,7 +14,7 @@
 }
 
 .card-two {
-  width: 335px;
+  width: 350px;
 
   .card-body {
     flex-grow: 0;
@@ -29,7 +29,7 @@
 }
 
 .card-three {
-  width: 335px;
+  width: 350px;
   position: relative;
 
   .card-body {
@@ -76,6 +76,14 @@
   }
 }
 
+.card:hover {
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+
 .card-hero {
   padding-bottom: 20px;
 
@@ -95,6 +103,8 @@
 
   a {
     text-decoration: none;
+
+    color: #1d2129;
   }
 
   h3 {
@@ -121,10 +131,18 @@
 
   .card__type {
     margin-right: 10px;
+    font-size: 14px;
+
+    color: #90949c;
   }
 
   .card__tag {
+    font-size: 14px;
     margin-right: 10px;
+    
+    a {
+      color: #90949c;
+    }
   }
 
   .card__date {

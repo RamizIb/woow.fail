@@ -1,5 +1,10 @@
 <div class="menu-top">
-  
+
+  <div class="menu-toggle">
+    <span><i class="fas fa-bars fa-2x"></i></span>
+    <span><i class="fas fa-times fa-2x"></i></span>
+  </div>
+
   <ul class="menu-top__ul">
 
     {% for item in site.menu %}
@@ -9,4 +14,15 @@
     {% endfor %}
     
   </ul>
+
+  <ul class="menu-top__ul-mobile">
+
+    {% for item in site.menu %}
+    <li class="{% if page.url == item.url %} navbar__active {% endif %}">
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+    
+  </ul>
+
 </div>

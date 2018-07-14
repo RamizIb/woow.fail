@@ -61,16 +61,16 @@ sitemap:
 
 # Menu
 menu:
-  - url: /finance/
-    name: Финансы
-  - url: /courses/
-    name: Курсы
-  - url: /advertising/
-    name: Что рекламируют
-  - url: /new-product/
-    name: Новинки
+  - url: /earn/
+    name: Как заработать
+  - url: /health/
+    name: Про здоровье
+  - url: /self-development/
+    name: Саморазвитие
+  - url: /best/
+    name: Лучшее
 
 # Collections
 collections:
-  rating-store:
+  best:
     output: true

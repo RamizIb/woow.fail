@@ -4,14 +4,13 @@ layout: default
 
 <div class="container-main">
 
-<!--   <div>
-    {% for post in site.posts %}
+  <div class="container-main__title">
 
-    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-    {% include date.html date=post.date %}
+    <h1>Заголовок основной</h1>
 
-    {% endfor %}
-  </div> -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    
+  </div><!-- /.container-main__title -->
 
   <div class="card-wrapper">
 
@@ -32,7 +31,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -56,7 +55,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -80,7 +79,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -104,7 +103,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -128,7 +127,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -152,7 +151,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -183,7 +182,7 @@ layout: default
       </div>
 
       <div class="card-footer">
-        <span class="card__type">{{ post.categories }}</span>
+        <span class="card__type">{{ post.type }}</span>
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
@@ -193,5 +192,6 @@ layout: default
   </div><!-- /.card-wrapper -->
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p><a href="#top">Наверх</a></p>
 
 </div>
