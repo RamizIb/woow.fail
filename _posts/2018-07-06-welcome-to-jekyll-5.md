@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-04-06 19:05:37 +0300
+layout: post-earn
+title: "Welcome to Jekyll!"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quam.
 categories: self-development
 type: Саморазвитие

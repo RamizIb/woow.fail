@@ -1,0 +1,6 @@
+{% assign words = content | number_of_words %}
+{% if words < 360 %}
+Читать: 1 мин.
+{% else %}
+Читать: {{ words | divided_by:180 }} мин.
+{% endif %}
