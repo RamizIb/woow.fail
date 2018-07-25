@@ -58,20 +58,6 @@ p {
   color: #4B4F56;
 }
 
-/* minimum paragraph width when floating http://css-tricks.com/minimum-paragraph-widths/ */
-p:before,
-ol:not([class]):before,
-ul:not([class]):before {
-  content: '';
-  display: block;
-  width: 10em;
-  overflow: hidden;
-}
-
-li p:before {
-  content: none;
-}
-
 h1,
 h2,
 h3,
@@ -341,5 +327,6 @@ samp {
         "card",
         "subscribe",
         "media",
-        "post"
+        "post",
+        "button"
 ;
