@@ -6,9 +6,9 @@ layout: default
 
   <div class="container-main__title">
 
-    <h1>Заголовок основной</h1>
+    <h1>У вас сегодня вау или фейл?</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p>В любом случае, вы попали по адресу. Курсы и обучающие программы, все самое трендовое в сети.</p>
     
   </div><!-- /.container-main__title -->
 
@@ -50,7 +50,7 @@ layout: default
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x300" alt="">
+          <img src="{{ post.image-teaser }}" alt="{{ post.title }}" width="450" height="300">
         </a>
       </div>
 
@@ -62,12 +62,12 @@ layout: default
     </div><!-- /.card-two -->
     {% endfor %}
 
-    {% for post in site.posts limit:1 offset: 4%}
+    {% for post in site.posts limit:1 offset: 3 %}
     <div class="card card-one">
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x300" alt="">
+          <img src="https://placehold.it/350x400" alt="">
         </a>
       </div>
 
@@ -84,30 +84,6 @@ layout: default
       </div>
 
     </div><!-- /.card-one -->
-    {% endfor %}
-
-    {% for post in site.posts limit:1 %}
-    <div class="card card-three">
-
-      <div class="card-hero">
-        <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x350" alt="">
-        </a>
-      </div>
-
-      <div class="card-body">
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-        {% if post.description %}
-        <p>{{ post.description }}</p>
-        {% endif %}
-      </div>
-
-      <div class="card-footer">
-        <span class="card__type">{{ post.type }}</span>
-        <span class="card__tag"><a href="">Теги</a></span>
-      </div>
-
-    </div><!-- /.card-three -->
     {% endfor %}
 
     {% for post in site.posts limit:1 offset:1 %}
@@ -122,7 +98,7 @@ layout: default
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x300" alt="">
+          <img src="https://placehold.it/350x400" alt="">
         </a>
       </div>
 
@@ -139,7 +115,7 @@ layout: default
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x300" alt="">
+          <img src="https://placehold.it/350x400" alt="">
         </a>
       </div>
 
@@ -158,19 +134,49 @@ layout: default
     </div><!-- /.card-one -->
     {% endfor %}
 
+    {% for post in site.posts limit:1 offset:1 %}
+    <div class="card card-two">
 
-  </div><!-- /.card-wrapper -->
-
-  {% include subscribe.html %}
-
-  <div class="card-wrapper">
-
-    {% for post in site.posts limit:4 %}
-    <div class="card card-four">
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/400x300" alt="">
+          <img src="https://placehold.it/350x400" alt="">
+        </a>
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag"><a href="">Теги</a></span>
+      </div>
+
+    </div><!-- /.card-two -->
+    {% endfor %}
+
+
+  </div><!-- /.card-wrapper -->
+
+</div><!-- /.container-main -->
+
+
+{% include subscribe.html %}
+
+
+<div class="container-main">
+
+  <div class="card-wrapper">
+
+    {% for post in site.posts limit:3 %}
+    <div class="card card-one">
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="https://placehold.it/350x400" alt="">
         </a>
       </div>
 
@@ -186,7 +192,31 @@ layout: default
         <span class="card__tag"><a href="">Теги</a></span>
       </div>
 
-    </div><!-- /.card-four -->
+    </div><!-- /.card-one -->
+    {% endfor %}
+
+    {% for post in site.posts limit:3 offset:1 %}
+    <div class="card card-two">
+
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="https://placehold.it/350x400" alt="">
+        </a>
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag"><a href="">Теги</a></span>
+      </div>
+
+    </div><!-- /.card-two -->
     {% endfor %}
 
   </div><!-- /.card-wrapper -->
@@ -194,4 +224,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   <p><a href="#top">Наверх</a></p>
 
-</div>
+</div><!-- /.container-main -->

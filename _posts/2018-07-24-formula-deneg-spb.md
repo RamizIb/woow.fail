@@ -6,8 +6,8 @@ date: 24.07.2018
 type: Заработать
 categories: earn
 status: article
-image-teaser: /assets/img/formula-deneg-spb-teaser-450-400.jpg
-image-left: /assets/img/formula-deneg-spb-teaser-900-600.jpg
+image-teaser: /assets/img/formula-deneg-spb-teaser-350-400.jpg
+image-left: /assets/img/formula-deneg-spb-hero-900-600.jpg
 ---
 
 <div class="post__block  post__block--hero">
@@ -70,6 +70,6 @@ image-left: /assets/img/formula-deneg-spb-teaser-900-600.jpg
 </div>
 
 <div class="post__button">
-[Подробности](){:.btn .btn-post .btn--pink target="_blank" rel="nofollow noopener"}
-[Купить](){:.btn .btn-post .btn--pink target="_blank" rel="nofollow noopener"}
+[Подробности](){:.btn .btn--blue target="_blank" rel="nofollow noopener"}
+[Купить](){:.btn .btn--blue target="_blank" rel="nofollow noopener"}
 </div>

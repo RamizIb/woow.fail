@@ -14,7 +14,7 @@ email: support@woow.fail
 author: RamizIb
 
 description: > # this means to ignore newlines until "baseurl:"
- Woow.Fail - история про то, что полезно, а что нет
+ Woow.Fail - история про то, что учиться новому полезно, а просиживать штаны - нет
 
 url: "https://woow.fail" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -62,9 +62,9 @@ sitemap:
 # Menu
 menu:
   - url: /earn/
-    name: Как заработать
+    name: Заработать
   - url: /health/
-    name: Про здоровье
+    name: Здоровье
   - url: /self-development/
     name: Саморазвитие
   - url: /best/
