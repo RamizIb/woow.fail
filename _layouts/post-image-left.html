@@ -3,18 +3,10 @@ layout: default
 ---
 <div class="container-post">
 
-  {% if page.image %}
-  <div class="post__hero-img">
-    <img src="{{ page.image }}" alt="{{ page.title }}">
-  </div>
-  {% else %}
-  {% endif %}
-
-
-  <header class="post__header">
+  <header class="post__header-image-left">
 
     <div class="post__header-left">
-      <img src="{{ page.image-left }}" alt="{{ page.title }}">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
     </div>
 
     <div class="post__header-right">
@@ -23,6 +15,7 @@ layout: default
         <span class="post__date">{% include date.html date=page.date %}</span>
         <span class="post__read-time" title="Время чтения">{% include read-time.html %}</span>
         <span class="post__category">{{ page.type }}</span>
+        <span class="post__tag">{{ page.tag }}</span>
       </div>
 
       <h1 class="post__title">{{ page.title }}</h1>
@@ -50,7 +43,7 @@ layout: default
 
   <div class="card-wrapper">
 
-    {% for post in site.related_posts limit:1 %}
+    {% for post in site.related_posts limit:3 %}
     <div class="card card-one">
 
       <div class="card-hero">
@@ -68,7 +61,7 @@ layout: default
 
       <div class="card-footer">
         <span class="card__type">{{ post.type }}</span>
-        <span class="card__tag"><a href="">Теги</a></span>
+        <span class="card__tag">{{ post.tag }}</span>
       </div>
 
     </div><!-- /.card-one -->

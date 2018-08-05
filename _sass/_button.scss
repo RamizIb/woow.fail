@@ -12,7 +12,7 @@
   text-decoration: none;
 
   font-weight: 600;
-  color: #4B4F56;
+  color: $text-color;
   background-color: transparent;
 
   text-align: center;
@@ -27,17 +27,50 @@
     transform: translate(0,-5px);
 
     transition: all 0.4s;
-    background-color: #4B4F56;
-    color: #fff;
+    background-color: $text-color;
+    color: $white-color;
   }
 }
 
-.btn--blue {
-  border-color: #03a9f4;
-  background-color: #fff;
+.btn--buy {
+  border-color: $brand-color;
+  background-color: $brand-color;
+  color: $white-color;
 
   &:hover {
-    background-color: #03a9f4;
-    color: #fff;
+    background-color: $white-color;
+    color: $brand-color;
+  }
+}
+
+.btn--more {
+  border-color: $brand-color;
+  background-color: $white-color;
+
+  &:hover {
+    background-color: $brand-color;
+    color: $white-color;
+  }
+}
+
+.top-button {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.btn--top {
+  max-width: 150px;
+  box-sizing: border-box;
+  
+  border-color: #03a9f4;
+  background-color: $white-color;
+  color: $brand-color;
+
+  &:hover {
+    background-color: $white-color;
+    color: $brand-color;
   }
 }

@@ -1,0 +1,46 @@
+---
+layout: default
+title: Курсы о заработке в сети
+description: Выберите подходящий курс, пройдите обучение и начните зарабатывать прямо сейчас.
+status: website
+permalink: course/
+---
+
+<div class="container-main">
+
+  <div class="container-main__title">
+
+    <h1>Курсы о заработке в сети</h1>
+
+    <p>Можно учиться и пробовать, а можно желать и ничего не делать. Твой выбор?</p>
+    
+  </div><!-- /.container-main__title -->
+
+  <div class="card-wrapper">
+
+    {% for post in site.posts %}
+    <div class="card card-one">
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="{{ post.image-teaser }}" alt="{{ post.title }}" width="450" height="300">
+        </a>
+      </div>
+
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag">{{ post.tag }}</span>
+      </div>
+
+    </div><!-- /.card-one -->
+    {% endfor %}
+
+  </div><!-- /.card-wrapper -->
+</div><!-- /.container-main -->

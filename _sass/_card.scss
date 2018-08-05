@@ -42,6 +42,11 @@
   box-shadow: 0 20px 20px rgba(0,0,0,.08);
   transition: all 0.4s;
 
+  a {
+    color: $title-color;
+    transition: all 0.4s;
+  }
+
   &:hover {
     transform: translate(0,-5px);
 
@@ -53,7 +58,8 @@
 .card:hover {
 
   a {
-    text-decoration: underline;
+    color: $brand-color;
+    transition: all 0.4s;
   }
 }
 
@@ -78,7 +84,7 @@
   a {
     text-decoration: none;
 
-    color: #1d2129;
+    color: $title-color;
   }
 
   h3 {
@@ -107,16 +113,12 @@
     margin-right: 10px;
     font-size: 14px;
 
-    color: #90949c;
+    color: $grey-color;
   }
 
   .card__tag {
     font-size: 14px;
-    margin-right: 10px;
-    
-    a {
-      color: #90949c;
-    }
+    color: $grey-color;
   }
 
   .card__date {

@@ -1,0 +1,119 @@
+---
+layout: default
+---
+<div class="container-post">
+
+  <header class="post__header">
+
+    <div class="post__header-left">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+
+    <div class="post__header-right">
+
+      <div class="post__information">
+        <span class="post__date">{% include date.html date=page.date %}</span>
+        <span class="post__read-time" title="Время чтения">{% include read-time.html %}</span>
+        <span class="post__category">{{ page.type }}</span>
+      </div>
+
+      <h1 class="post__title">{{ page.title }}</h1>
+      <p class="post__description">{{ page.description }}</p>
+
+    </div>
+
+  </header>
+
+  <article class="post__content">
+    {{ content }}
+  </article>
+  
+</div><!-- /.container-post -->
+
+
+{% include subscribe.html %}
+
+
+<div class="container-related-post">
+
+  <div class="post__title-related">
+    <h3>Сейчас читают:</h3>
+  </div>
+
+  <div class="card-wrapper">
+
+    {% for post in site.related_posts limit:1 %}
+    <div class="card card-one">
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="https://placehold.it/350x400" alt="">
+        </a>
+      </div>
+
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag"><a href="">Теги</a></span>
+      </div>
+
+    </div><!-- /.card-one -->
+    {% endfor %}
+
+    {% for post in site.related_posts limit:1 offset:2 %}
+    <div class="card card-two">
+
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="https://placehold.it/350x400" alt="">
+        </a>
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag"><a href="">Теги</a></span>
+      </div>
+
+    </div><!-- /.card-two -->
+    {% endfor %}
+
+    {% for post in site.related_posts limit:1 offset:3 %}
+    <div class="card card-one">
+
+      <div class="card-hero">
+        <a href="{{ post.url }}">
+          <img src="https://placehold.it/350x400" alt="">
+        </a>
+      </div>
+
+      <div class="card-body">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="card-footer">
+        <span class="card__type">{{ post.type }}</span>
+        <span class="card__tag"><a href="">Теги</a></span>
+      </div>
+
+    </div><!-- /.card-one -->
+    {% endfor %}
+
+  </div>
+
+</div><!-- /.container -->

@@ -61,14 +61,10 @@ sitemap:
 
 # Menu
 menu:
-  - url: /earn/
-    name: Заработать
-  - url: /health/
-    name: Здоровье
-  - url: /self-development/
-    name: Саморазвитие
-  - url: /best/
-    name: Лучшее
+  - url: /course/
+    name: Курсы
+  - url: /rewiev/
+    name: Обзоры
 
 # Collections
 collections:

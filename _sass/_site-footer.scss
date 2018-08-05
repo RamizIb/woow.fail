@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: #212121;
+  background-color: $footer-background;
   font-size: 16px;
 }
 
@@ -14,20 +14,20 @@
       text-decoration: none;
       font-weight: 600;
 
-      color: #03a9f4;
+      color: $brand-color;
     }
   }
 
   .footer__description {
 
     p {
-      color: #c0c0c0;
+      color: $footer-text-color;
       margin-bottom: 5px;
     }
 
     a {
       text-decoration: none;
-      color: #90949c;
+      color: $footer-link-color;
     }
   }
 }
@@ -39,21 +39,21 @@
     margin-bottom: 10px;
 
     font-size: 20px;
-    color: #c0c0c0;
+    color: $footer-text-color;
   }
 
   p {
     margin-bottom: 5px;
-    color: #c0c0c0;
+    color: $footer-text-color;
   }
 
   a {
     text-decoration: none;
-    color: #90949c;
+    color: $footer-link-color;
   }
 
   i {
-    color: #ff0000;
+    color: $red-color;
   }
 }
 
@@ -64,24 +64,24 @@
     margin-bottom: 10px;
     
     font-size: 20px;
-    color: #c0c0c0;
+    color: $footer-text-color;
   }
 
   p {
     margin-bottom: 5px;
-    color: #c0c0c0;
+    color: $footer-text-color;
   }
 
   a {
     text-decoration: none;
-    color: #90949c;
+    color: $brand-color;
   }
 
   span {
 
     i {
       margin-right: 15px;
-      color: #03a9f4;
+      color: $brand-color;
     }
   }
 }

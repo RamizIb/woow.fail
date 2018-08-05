@@ -1,13 +1,14 @@
 ---
-layout: post-earn
+layout: post-image-left
 title: Формула денег С.П.Б.
 description: Как привлекать покупателей из рекламных сетей бесплатно?
-date: 24.07.2018
-type: Заработать
-categories: earn
+type: Курс
+categories: course
+tag: Партнерки, трафик
 status: article
+date: 24.07.2018
 image-teaser: /assets/img/formula-deneg-spb-teaser-350-400.jpg
-image-left: /assets/img/formula-deneg-spb-hero-900-600.jpg
+image: /assets/img/formula-deneg-spb-hero-900-600.jpg
 ---
 
 <div class="post__block  post__block--hero">
@@ -34,10 +35,22 @@ image-left: /assets/img/formula-deneg-spb-hero-900-600.jpg
 - Использовать промо-материалы и видео-уроки.
 - Стать участником двухуровневой партнерской программы.
 
+</div>
+</div>
+
+<div class="post__block  post__block--highlighting-pink">
+<div class="post__wrapper">
+
 ## Что не придется делать:
 
 Курс не предлагает создавать сайты или привлекать партнеров. Также вам не потребуется изучать сложные программы для реализации своей идеи. Тут не участвуют игры на Форексе или бинарные опционы, а еще автор не предлагает привлекать покупателей через социальные сети. Все это долго, сложно и не всегда дает прибыль.
 Зато есть возможность настроить систему реального заработка всего за час после начала обучения.
+
+</div>
+</div>
+
+<div class="post__block">
+<div class="post__wrapper">
 
 ## Что вы покупаете?
 
@@ -70,6 +83,6 @@ image-left: /assets/img/formula-deneg-spb-hero-900-600.jpg
 </div>
 
 <div class="post__button">
-[Подробности](){:.btn .btn--blue target="_blank" rel="nofollow noopener"}
-[Купить](){:.btn .btn--blue target="_blank" rel="nofollow noopener"}
+[Подробности](){:.btn .btn--more target="_blank" rel="nofollow noopener"}
+[Купить](){:.btn .btn--buy target="_blank" rel="nofollow noopener"}
 </div>
