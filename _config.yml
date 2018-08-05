@@ -63,7 +63,7 @@ sitemap:
 menu:
   - url: /course/
     name: Курсы
-  - url: /rewiev/
+  - url: /review/
     name: Обзоры
 
 # Collections

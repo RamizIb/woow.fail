@@ -53,7 +53,7 @@ status: website
 
   <div class="card-wrapper">
 
-    {% for post in site.posts limit:6 %}
+    {% for post in site.posts limit:3 %}
     <div class="card card-two">
 
       <div class="card-body">
@@ -65,7 +65,7 @@ status: website
 
       <div class="card-hero">
         <a href="{{ post.url }}">
-          <img src="https://placehold.it/350x400" alt="">
+          <img src="{{ post.image-teaser }}" alt="{{ post.title }}">
         </a>
       </div>
 
