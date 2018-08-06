@@ -6,6 +6,7 @@
 *.psd
 *.sublime*
 _site/
+_posts/
 includ_html/
 node_modules/
 template/
