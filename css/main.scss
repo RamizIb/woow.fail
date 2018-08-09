@@ -199,6 +199,7 @@ ol:not([class]) li {
 
 /* images */
 img {
+  display: block;
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
@@ -338,7 +339,7 @@ samp {
         "menu-top",
         "card",
         "subscribe",
-        "media",
         "post",
-        "button"
+        "button",
+        "media"
 ;

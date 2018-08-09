@@ -17,7 +17,7 @@ status: website
 
   <div class="card-wrapper">
 
-    {% for post in site.posts %}
+    {% for post in site.categories.course limit:6 %}
     <div class="card card-one">
 
       <div class="card-hero">
@@ -53,7 +53,7 @@ status: website
 
   <div class="card-wrapper">
 
-    {% for post in site.posts limit:3 %}
+    {% for post in site.categories.review limit:6 %}
     <div class="card card-two">
 
       <div class="card-body">

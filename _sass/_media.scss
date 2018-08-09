@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-  
+
   .container-header {
     flex-direction: row;
   }
@@ -15,4 +15,42 @@
   .menu-toggle {
     display: none;
   }
+
+  .footer__copyright {
+    width: 35%;
+  }
+
+  .footer__contact {
+    width: 24%;
+  }
+
+  .footer__social {
+    width: 24%;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .container-main__title {
+    margin: 20px;
+  }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  .post__header-image-left {
+    padding-top: 50px;
+
+    .post__header-left {
+      width: 55%;
+    }
+
+    .post__header-right {
+      width: 40%;
+    }
+  }
+
 }

@@ -4,7 +4,8 @@
 }
 
 .footer__copyright {
-  width: 35%;
+  width: 100%;
+  margin-bottom: 15px;
 
   .footer__brand {
     margin-bottom: 10px;
@@ -33,7 +34,8 @@
 }
 
 .footer__contact {
-  width: 24%;
+  width: 100%;
+  margin-bottom: 15px;
 
   h5 {
     margin-bottom: 10px;
@@ -58,7 +60,8 @@
 }
 
 .footer__social {
-  width: 24%;
+  width: 100%;
+  margin-bottom: 15px;
 
   h5 {
     margin-bottom: 10px;
@@ -87,8 +90,13 @@
 }
 
 .footer__authors-opinion {
-  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 15px;
 
   font-size: 14px;
   text-align: center;
+
+  p {
+    margin: 0 auto;
+  }
 }
